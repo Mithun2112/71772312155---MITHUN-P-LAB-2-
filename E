@@ -1,0 +1,7 @@
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+keys = my_dict.keys()
+print("All keys:", keys)
+values = my_dict.values()
+print("All values:", values)
+items = my_dict.items()
+print("Key-value pairs:", items)
