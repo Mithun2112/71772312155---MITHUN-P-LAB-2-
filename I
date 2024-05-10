@@ -1,0 +1,9 @@
+marks={'Maara':99,'Mitchel':91,'Cummins':89,'Kane':93,'Curran':98}
+
+l=len(marks)
+
+for i in range(l):
+
+    print(marks.popitem())
+
+    print(marks)
