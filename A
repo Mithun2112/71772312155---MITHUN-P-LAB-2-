@@ -1,0 +1,25 @@
+t=input('enter any string:')
+
+fre={}
+
+for ch in t:
+
+    if ch in fre:
+
+        fre[ch]+=1
+
+    else:
+
+        fre[ch]=1
+
+    print('count of all character is:',fre)
+
+    for k,v in fre.items():
+
+        print(k,'.',end='')
+
+        for i in range(0,v):
+
+            print('*',end='')
+
+        print()
